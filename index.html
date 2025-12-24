@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Christmas Surprise</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- INTRO -->
+  <div class="intro" id="intro">
+    <h1>Christmas is Here</h1>
+    <button onclick="startSurprise()">🎁 Surprise</button>
+  </div>
+
+  <!-- MAIN SCENE -->
+  <div class="scene" id="scene">
+    <div class="moon"></div>
+    <img src="santa.png" class="santa" alt="Santa">
+    <div class="message">Merry Christmas</div>
+    <div class="snow"></div>
+    <div class="trees"></div>
+  </div>
+
+  <!-- MUSIC -->
+  <audio id="music" loop>
+    <source src="bgm.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
